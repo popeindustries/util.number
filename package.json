@@ -1,0 +1,13 @@
+{
+	"name": "util.number",
+	"description": "A collection of Number utility functions",
+	"version": "0.0.1",
+	"author": "popeindustries <alex@pope-industries.com>",
+	"dependencies": {
+	},
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/popeindustries/util.number.git"
+	}
+}
