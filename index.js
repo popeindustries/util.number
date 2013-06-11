@@ -83,3 +83,14 @@ var limit = exports.limit = function(value, min, max) {
 var rangedRandom = exports.rangedRandom = function(low, high) {
 	return map(Math.random(), 0, 1, low, high);
 };
+
+/**
+ * Rounds a value to the number of specified decimal places
+ * @param {Number} value
+ * @param {Number} decimalPlaces
+ * @returns {Number}
+ */
+exports.round = function (value, decimalPlaces) {
+	var places = Math.pow(10, (decimalPlaces || 0) + 1);
+	return Math.round(value * places) / places;
+};
