@@ -91,6 +91,6 @@ var rangedRandom = exports.rangedRandom = function(low, high) {
  * @returns {Number}
  */
 exports.round = function (value, decimalPlaces) {
-	var places = Math.pow(10, (decimalPlaces || 0) + 1);
+	var places = Math.pow(10, (decimalPlaces || 0));
 	return Math.round(value * places) / places;
 };

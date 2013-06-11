@@ -1,7 +1,7 @@
 {
 	"name": "util.number",
 	"description": "A collection of Number utility functions",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "popeindustries <alex@pope-industries.com>",
 	"dependencies": {
 	},
