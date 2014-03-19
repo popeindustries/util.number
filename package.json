@@ -1,8 +1,8 @@
 {
 	"name": "util.number",
 	"description": "A collection of Number utility functions",
-	"version": "0.0.3",
-	"author": "popeindustries <alex@pope-industries.com>",
+	"version": "0.0.2",
+	"author": "Thomas Lein <thomaslein@gmail.com>",
 	"dependencies": {
 	},
 	"main": "index.js",
