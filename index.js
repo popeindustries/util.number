@@ -31,13 +31,15 @@ exports.radiansToDegrees = function(rad) {
  * @param {Number} maximum
  * @returns {Number}
  */
-var normalize = exports.normalize = function(value, min, max) {
-	if (min === max) {
-		return 1;
-	} else {
-		return (value - min) / (max - min);
-	}
-};
+var normalize = exports.normalize = function(value, min, max){
+	if(min === max || value >= max){
+		return 1
+	else if (value <= min)
+		return 0
+	}else{
+		return (value-min) / (max-min)
+	}	
+}
 
 /**
  * Takes a normalized value and a range and returns the actual value in that range.
