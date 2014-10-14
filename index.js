@@ -34,7 +34,7 @@ exports.radiansToDegrees = function(rad) {
 var normalize = exports.normalize = function(value, min, max){
 	if(min === max || value >= max){
 		return 1
-	else if (value <= min)
+	}else if (value <= min){
 		return 0
 	}else{
 		return (value-min) / (max-min)
